@@ -899,7 +899,7 @@ def main():
                 "Tampilkan berapa metric dengan selisih absolut terbesar?",
                 min_value=10,
                 max_value=100,
-                value=30,
+                value=100,
                 step=5,
             )
 
