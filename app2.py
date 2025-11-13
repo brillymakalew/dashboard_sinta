@@ -341,8 +341,8 @@ def main():
     else:
         # Coba v2 dulu, lalu fallback ke versi lama
         try:
-            df_md = load_metrics_detail("Sinta Metrics Detail v2.xlsx")
-            st.sidebar.success("Menggunakan file lokal: Sinta Metrics Detail v2.xlsx")
+            df_md = load_metrics_detail("Sinta Metrics Detail v2.1.xlsx")
+            st.sidebar.success("Menggunakan file lokal: Sinta Metrics Detail v2.1.xlsx")
         except Exception:
             try:
                 df_md = load_metrics_detail("Sinta Metrics Detail.xlsx")
